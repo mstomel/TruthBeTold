@@ -19,12 +19,20 @@ public class Main {
 
                 if (parts[2].equalsIgnoreCase("B")) {
 
+                    System.out.println("A + \t\t + B + \t\t A&&B");
                     System.out.println(A + "\t" + B + "\t" + (A&&B));
+                    System.out.println(!A + "\t" + B + "\t" + (!A&&B));
+                    System.out.println(A + "\t" + !B + "\t" + (A&&!B));
+                    System.out.println(!A + "\t" + !B + "\t" + (!A&&!B));
 
                 }
                 else if (parts[2].equalsIgnoreCase("!B")) {
 
+                    System.out.println("A + \t\t + !B + \t\t A&&!B");
                     System.out.println(A + "\t" + !B + "\t" + (A&&!B));
+                    System.out.println(!A + "\t" + !B + "\t" + (!A&&!B));
+                    System.out.println(A + "\t" + !!B + "\t" + (A&&!!B));
+                    System.out.println(!A + "\t" + !!B + "\t" + (!A&&!!B));
 
                 }
 
@@ -33,12 +41,20 @@ public class Main {
 
                 if (parts[2].equalsIgnoreCase("B")) {
 
+                    System.out.println("A + \t\t + B + \t\t A||B");
                     System.out.println(A + "\t" + B + "\t" + (A||B));
+                    System.out.println(!A + "\t" + B + "\t" + (!A||B));
+                    System.out.println(A + "\t" + !B + "\t" + (A||!B));
+                    System.out.println(!A + "\t" + !B + "\t" + (!A||!B));
 
                 }
                 else if (parts[2].equalsIgnoreCase("!B")) {
 
-                    System.out.println(A + "\t" + B + "\t" + (A||!B));
+                    System.out.println("A + \t\t + !B + \t\t A||!B");
+                    System.out.println(A + "\t" + !B + "\t" + (A||!B));
+                    System.out.println(!A + "\t" + !B + "\t" + (!A||!B));
+                    System.out.println(A + "\t" + !!B + "\t" + (A||!!B));
+                    System.out.println(!A + "\t" + !!B + "\t" + (!A||!!B));
 
                 }
 
@@ -51,12 +67,20 @@ public class Main {
 
                 if (parts[2].equalsIgnoreCase("B")) {
 
+                    System.out.println("!A + \t\t + B + \t\t !A&&B");
                     System.out.println(!A + "\t" + B + "\t" + (!A&&B));
+                    System.out.println(!!A + "\t" + B + "\t" + (!!A&&B));
+                    System.out.println(!A + "\t" + !B + "\t" + (!A&&!B));
+                    System.out.println(!!A + "\t" + !B + "\t" + (!!A&&!B));
 
                 }
                 else if (parts[2].equalsIgnoreCase("!B")) {
 
+                    System.out.println("!A + \t\t + !B + \t\t !A&&!B");
                     System.out.println(!A + "\t" + !B + "\t" + (!A&&!B));
+                    System.out.println(!!A + "\t" + !B + "\t" + (!!A&&!B));
+                    System.out.println(!A + "\t" + !!B + "\t" + (!A&&!!B));
+                    System.out.println(!!A + "\t" + !!B + "\t" + (!!A&&!!B));
 
                 }
 
@@ -65,12 +89,19 @@ public class Main {
 
                 if (parts[2].equalsIgnoreCase("B")) {
 
+                    System.out.println("!A + \t\t + B + \t\t !A||B");
                     System.out.println(!A + "\t" + B + "\t" + (!A||B));
+                    System.out.println(!!A + "\t" + B + "\t" + (!!A||B));
+                    System.out.println(!A + "\t" + !B + "\t" + (!A||!B));
+                    System.out.println(!!A + "\t" + !B + "\t" + (!!A||!B));
 
                 }
                 else if (parts[2].equalsIgnoreCase("!B")) {
 
+                    System.out.println("!A + \t\t + !B + \t\t !A||!B");
                     System.out.println(!A + "\t" + !B + "\t" + (A||B));
+
+
 
                 }
 
